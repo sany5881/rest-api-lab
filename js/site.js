@@ -4,7 +4,7 @@ const octokit = new Octokit({
   auth: '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'
 })
 
-await octokit.request('POST /repos/sany5881/rest-api-lab/api/todoitems', {
+await octokit.request('GET /repos/sany5881/rest-api-lab/api/todoitems', {
   owner: 'OWNER',
   repo: 'REPO',
   title: 'Found a bug',
