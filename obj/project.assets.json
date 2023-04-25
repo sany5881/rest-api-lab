@@ -10948,11 +10948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\desktop\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\Admin\\desktop\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\desktop\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
