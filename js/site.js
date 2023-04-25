@@ -10,7 +10,7 @@ const octokit = new Octokit({
   auth: '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',
 });
 
-await octokit.request("GET /repos/sany5881/rest-api-lab/issues", {
+await octokit.request("GET /repos/sany5881/rest-api-lab/api/TodoItems", {
   owner: "sany5881",
   repo: "rest-api-lab"
 });
