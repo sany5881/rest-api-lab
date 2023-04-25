@@ -1,3 +1,19 @@
+const fetch = require('node-fetch');
+
+// Замените <ваш токен> на ваш реальный временный токен доступа
+const token = "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";
+
+// Установка заголовка Authorization
+const headers = {
+  'Authorization': `Bearer ${token}`
+};
+
+// Отправка запроса GET к API GitHub
+fetch('https://api.github.com/sany5881', { headers })
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+
 const uri = 'https://api.github.com/repos/sany5881/rest-api-lab/api/TodoItems';
 let todos = [];
 
