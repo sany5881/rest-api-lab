@@ -1,20 +1,3 @@
-import { Octokit } from "octokit";
-
-const octokit = new Octokit({ 
-  auth: process.env.TOKEN,
-});
-
-await octokit.request("GET /sany5881", {});
-
-const octokit = new Octokit({ 
-  auth: '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',
-});
-
-await octokit.request("POST /repos/sany5881/rest-api-lab/api/TodoItems", {
-  owner: "sany5881",
-  repo: "rest-api-lab"
-});
-
 const uri = 'https://api.github.com/repos/sany5881/rest-api-lab/api/TodoItems';
 let todos = [];
 
