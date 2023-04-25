@@ -1,4 +1,4 @@
-const uri = 'api/todoitems';
+const uri = 'https://sany5881.github.io/rest-api-lab/api/todoitems';
 let todos = [];
 
 function getItems() {
