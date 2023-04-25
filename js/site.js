@@ -1,5 +1,24 @@
+// Octokit.js
+// https://github.com/octokit/core.js#readme
 const octokit = new Octokit({
   auth: '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'
+})
+
+await octokit.request('POST /repos/sany5881/rest-api-lab/issues', {
+  owner: 'OWNER',
+  repo: 'REPO',
+  title: 'Found a bug',
+  body: 'I\'m having a problem with this.',
+  assignees: [
+    'octocat'
+  ],
+  milestone: 1,
+  labels: [
+    'bug'
+  ],
+  headers: {
+    'X-GitHub-Api-Version': '2022-11-28'
+  }
 })
 const uri = 'https://api.github.com/repos/sany5881/rest-api-lab/api/TodoItems';
 let todos = [];
