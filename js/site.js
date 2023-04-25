@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const fetch = require('fetch');
 
 // Замените <ваш токен> на ваш реальный временный токен доступа
 const token = "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";
@@ -14,7 +14,7 @@ fetch('https://api.github.com/sany5881', { headers })
   .then(data => console.log(data))
   .catch(error => console.error(error));
 
-const uri = 'api/TodoItems';
+const uri = 'https://api.github.com/sany5881/rest-api-lab/api/TodoItems';
 let todos = [];
 
 function getItems() {
