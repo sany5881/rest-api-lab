@@ -2,6 +2,18 @@ const fetch = require('node-fetch');
 // Замените <ваш токен> на ваш реальный временный токен доступа
 const token = "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";
 
+const octokit = new Octokit({ 
+  auth: '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',
+});
+
+import { Octokit } from "octokit";
+
+const octokit = new Octokit({ 
+  auth: process.env.TOKEN,
+});
+
+await octokit.request("GET /api/todoitems", {});
+
 // Установка заголовка Authorization
 const headers = {
   'Authorization': `Bearer ${token}`
