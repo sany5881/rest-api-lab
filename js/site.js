@@ -15,7 +15,7 @@ await octokit.request("GET /repos/sany5881/rest-api-lab/issues", {
   repo: "rest-api-lab"
 });
 
-const uri = 'https://github.com/repos/sany5881/rest-api-lab/api/todoitems';
+const uri = 'https://api.github.com/repos/sany5881/rest-api-lab/api/todoitems';
 let todos = [];
 
 function getItems() {
