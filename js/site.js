@@ -1,3 +1,6 @@
+const octokit = new Octokit({
+  auth: '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'
+})
 const uri = 'https://api.github.com/repos/sany5881/rest-api-lab/api/TodoItems';
 let todos = [];
 
