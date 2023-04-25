@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 // Замените <ваш токен> на ваш реальный временный токен доступа
 const token = "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";
 
