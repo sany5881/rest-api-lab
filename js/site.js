@@ -12,7 +12,7 @@ fetch('https://api.github.com/sany5881', { headers })
   .then(data => console.log(data))
   .catch(error => console.error(error));
 
-const uri = 'https://api.github.com/users/sany5881';
+const uri = 'https://sany5881.github.io/rest-api-lab/';
 let todos = [];
 
 function getItems() {
