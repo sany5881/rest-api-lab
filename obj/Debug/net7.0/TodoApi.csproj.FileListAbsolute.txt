@@ -278,3 +278,5 @@ C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\MessagePack.dll
 C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\MessagePack.Annotations.dll
 C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\TodoApi.staticwebassets.runtime.json
+C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\package-lock.json
+C:\Users\Admin\desktop\TodoApi\bin\Debug\net7.0\package.json
