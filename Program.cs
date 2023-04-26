@@ -21,6 +21,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseSwagger();
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
