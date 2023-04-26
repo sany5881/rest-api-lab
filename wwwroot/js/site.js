@@ -1,3 +1,14 @@
+import { Octokit } from "octokit";
+
+const octokit = new Octokit({
+  auth: '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'
+});
+
+await octokit.request("GET /repos/sany5881/rest-api-lab/issues", {
+  owner: "sany5881",
+  repo: "rest-api-lab",
+});
+
 const uri = 'api/todoitems';
 let todos = [];
 
