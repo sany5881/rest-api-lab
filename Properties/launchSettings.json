@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5077",
+      "applicationUrl": "https://sany5881.github.io/rest-api-lab",
       "sslPort": 44384
     }
   },
@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5077",
+      "applicationUrl": "https://sany5881.github.io/rest-api-lab",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -22,7 +22,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5077",
+      "applicationUrl": "https://sany5881.github.io/rest-api-lab",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
